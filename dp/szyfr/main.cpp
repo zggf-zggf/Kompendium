@@ -15,8 +15,7 @@ int main(){
 	}
 	int s;
 	cin>>s;
-	map<int, int> mp;
-
+	unordered_map<int, int> mp;
 	for(int i = 0; i < (1<<(t1.size())); i++){
 		int tmp = 0;
 		for(int bit =0; bit < t1.size(); bit++){
